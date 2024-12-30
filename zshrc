@@ -12,6 +12,7 @@ setopt appendhistory                      # Save history to file
 TYPEWRITTEN_PROMPT_LAYOUT="pure"
 
 export PATH=$CARGO_PATH:$PYTHON_PATH:$PATH
+. "$HOME/.cargo/env"
 
 # Check and install antigen
 if [ ! -f $ANTIGEN_PATH ]; then
