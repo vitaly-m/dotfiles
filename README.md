@@ -31,4 +31,4 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 ```sh
 ln -s $(pwd)/alacritty.toml ~/.config/alacritty/alacritty.toml
 ```
-5. Open tmux, execute `<C-b><I>` to install plugins
+6. Open tmux, execute `<C-b><I>` to install plugins
