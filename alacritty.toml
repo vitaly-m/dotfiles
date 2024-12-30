@@ -1,0 +1,17 @@
+[env]
+TERM = "screen-256color"
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
+]
+
+[terminal]
+shell = "/bin/zsh"
+
+[font]
+normal = { family = "Hack Nerd Font Mono", style= "Regular" }
+size = 14
+
+[keyboard]
+bindings = [{ key = "F11", action = "ToggleFullscreen" }]
