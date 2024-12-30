@@ -1,6 +1,7 @@
 #!/bin/sh
 mkdir -p ~/.tmux/plugins/tpm
 mkdir -p ~/.config/alacritty/themes
+mkdir -p ${ZDOTDIR:-~}/.zsh_functions
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
